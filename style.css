@@ -110,18 +110,24 @@ button:hover{
         font-weight: lighter;
         font-size: large;
     }
+   
+
+    
+    
+}
+@media(max-width:280px ){
     h2{
         
         font-size: large;
         width: 70%;
         display: flex;
-        margin-left: 40px;
+        margin-left: 50px;
        
     }
-
     #result div{
         
-        margin: 30px;
+        margin: 40px;
+        margin-left: 80PX;
 
     }
 }
