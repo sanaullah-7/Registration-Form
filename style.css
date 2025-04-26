@@ -98,16 +98,30 @@ button:hover{
 @media(max-width:480px )
 {
     h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     .myForm{
         padding: 20px;
-        margin: 20px;
+        margin-left: 40px;
         width: 70%;
     }
     button{
         width: 30%;
         font-weight: lighter;
-        font-size: small;
+        font-size: large;
+    }
+    h2{
+        
+        font-size: large;
+        width: 70%;
+        display: flex;
+        margin-left: 40px;
+       
+    }
+
+    #result div{
+        
+        margin: 30px;
+
     }
 }
