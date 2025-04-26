@@ -94,6 +94,20 @@ button:hover{
         font-weight: lighter;
         font-size: small;
     }
+    h2{
+        
+        font-size: larger;
+        margin: 0px 40px 0px 40px;
+        
+      
+       
+    }
+    #result div{
+        
+        margin: 20px 40px 0px 40px;
+        
+
+    }
 }
 @media(max-width:480px )
 {
