@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    background-image: url(./pexels-divinetechygirl-1181275.jpg);
+    backdrop-filter: blur(2.5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+h1{
+    color:blue;
+}
+
+input,select{
+    padding: 7px;
+    width: 95%;
+    border-radius: 7px;
+    font-size: large;
+    border: 1px solid black;
+    border-color: black;
+    margin-left: 10px ;
+
+}
+.myForm{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px ; 
+    margin-top: 20px;  
+ 
+     
+}
+label{
+    font-weight: bolder;
+    letter-spacing: 2.5px; 
+}
+button{
+    width: 20%;
+    padding: 3px;
+    margin: 20px 0px 0px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(5, 86, 5);
+    color: white;
+    letter-spacing: 1px;
+}
+h2{
+    color: blue;
+    font-size: xx-large;
+    padding: 20px;
+    background-color: #888787;
+    border-radius: 20px;
+   
+}
+ #result div /*This method will apply to all div elements inside the #result container. */
+{
+        background-color: #888787;
+        border-radius: 20px;
+        padding:15px ; 
+        margin-top: 30px;/* Adds space between each user's result */
+        font-size: x-large;
+}
+.showdata{
+    margin-bottom: 40px;
+}
+.error{
+    color: red;
+}
+.myForm:hover{
+    box-shadow: 0px 0px 40px rgb(7, 120, 232); 
+}
+input:focus , select:focus{
+     box-shadow:0px 5px 10px 0px blue;
+}
+button:hover{
+    background-color:green;
+}
+@media(max-width:600px )
+{
+    h1{
+        font-size: 23px;
+    }
+    .myForm{
+        padding: 20px;
+        margin: 10px;
+        
+    }
+    input,select{
+        padding: 4px;
+    }
+    button{
+        font-weight: lighter;
+        font-size: small;
+    }
+}
+@media(max-width:480px )
+{
+    h1{
+        font-size: 15px;
+    }
+    .myForm{
+        padding: 20px;
+        margin: 20px;
+        width: 70%;
+    }
+    button{
+        width: 30%;
+        font-weight: lighter;
+        font-size: small;
+    }
+}

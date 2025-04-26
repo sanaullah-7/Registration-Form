@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+   <form class="myForm">
+    <h1>Govt Laptop Scheme – Apply Now</h1>
+    
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <div class="error" id="nameError"></div>
+    </div>
+
+    <div>
+      <label for="num">Phone No:</label>
+      <input type="number" id="num" />
+      <div class="error" id="phoneError"></div>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" />
+      <div class="error" id="emailError"></div>
+    </div>
+
+    <div>
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" />
+      <div class="error" id="passError"></div>
+    </div>
+
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" />
+      <div class="error" id="addressError"></div>
+    </div>
+
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" id="age" />
+      <div class="error" id="ageError"></div>
+    </div>
+
+    <div>
+       <label for="date">Date Of Birth:</label>
+      <input type="datetime-local" id="date" />
+      <div class="error" id="dateError"></div>
+    </div>
+
+    <div>
+      <label for="gender">Gender:</label>
+      <select name="" id="gender">
+        <option value="">Select Gender</option> 
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+      <button type="submit" >Submit</button>
+      
+    </form>
+    <div class="showdata">
+      
+     <div id="result"><h2>Registered Users Data</h2></div>
+    </div>
+    </main>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
