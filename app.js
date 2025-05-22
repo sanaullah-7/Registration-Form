@@ -22,7 +22,7 @@ let imageURL = "";
   } 
   //e.g Tum Facebook ya WhatsApp pe image select karte ho aur wo turant dikh jaati hai —
 //upload hone se pehle — bas waisa hi hota hai preview! 
-   
+
 console.log(Name)
 e.preventDefault();//it stops the form from submitting to the reloading of page.
 e.target.reset();//This clears the form inputs & resets the form to its original state.
@@ -68,7 +68,7 @@ e.target.reset();//This clears the form inputs & resets the form to its original
    
  }
 //  Stop if there are any errors
- if (isValid === false) 
+ if (isValid === false) return
  alert("Form Submitted Successfully!")
 Result.innerHTML=`
 <img src="${imageURL}" width="100" height="100" style="object-fit:cover, marginTop:4px" /><br> 
