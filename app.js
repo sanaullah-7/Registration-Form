@@ -68,10 +68,10 @@ e.target.reset();//This clears the form inputs & resets the form to its original
    
  }
 //  Stop if there are any errors
- if (isValid === false) return
+ if (isValid === false) 
  alert("Form Submitted Successfully!")
 Result.innerHTML=`
-<img src="${imageURL}" width="100" height="100" style="object-fit:cover, marginTop:4px" /><br> 
+<img src="${imageURL}" width="100" height="100" style="object-fit:cover; /><br> 
 <b>ID : </b>A${UserID}<br>
 <b>Name : </b>${Name}<br>
 <b>Phone NO : </b>${Pnumber}<br>
