@@ -81,7 +81,6 @@ Result.innerHTML=`
 <b>Age : </b>${Age}<br>
 <b>DOB : </b>${DOB}<br>
 <b>Gender : </b>${Gender}<br>
-<button class="editBtn">Edit</button>
 <button class="deleteBtn">Delete</button>`;
 document.getElementById("result").append(Result);//Ye keh raha hai:“Jo result wala div hai us ke andar Result ko neechay add kar do
 //append “Add something at the end of an element.”
