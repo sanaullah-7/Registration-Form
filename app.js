@@ -68,7 +68,7 @@ e.target.reset();//This clears the form inputs & resets the form to its original
    
  }
 //  Stop if there are any errors
- if (isValid === false) 
+ if (isValid === false) return
  alert("Form Submitted Successfully!")
 // “Fit this image (or video) inside its box completely by covering the area, even if it needs to crop (cut) parts of it.”
 //It works best with fixed width & height (e.g. 200x200).
